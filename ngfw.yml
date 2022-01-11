@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+  ngfw_traffic:
+    image: traffic-gen:latest
+    entrypoint: bash -c '/entrypoint.sh'
+    networks:
+      ngfw_net:
+
+networks:
+  # network for ngfw devices 192.168.2.0/24
+  ngfw_net:
+    driver: macvlan
+    driver_opts:
+      parent: ${NGFW_NIC}
+    ipam:
+      config:
+      - subnet: 192.168.2.0/24
+        gateway: 192.168.2.1
+        ip_range: 192.168.2.200/26
