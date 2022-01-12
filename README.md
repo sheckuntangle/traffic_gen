@@ -17,7 +17,9 @@ Edit the .env file in the repo to match the name of the interfaces on your devic
 # Copy ngfw-traffic and mfw-traffic to /usr/local/bin and make executable
 
 cd (repo dir)
+
 sudo chmod +x *-traffic
+
 sudo cp *-traffic /usr/local/bin
 
 This will allow you to run the mfw-traffic and ngfw-traffic commands to start the traffic generators.
