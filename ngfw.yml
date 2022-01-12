@@ -2,7 +2,7 @@ version: '2'
 
 services:
   ngfw_traffic:
-    image: container-registry.untangle.com/traffic-gen:latest
+    image: container-registry.untangle.com/traffic_gen:latest
     entrypoint: bash -c '/entrypoint.sh'
     networks:
       ngfw_net:
