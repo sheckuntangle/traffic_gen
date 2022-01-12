@@ -23,3 +23,9 @@ sudo chmod +x *-traffic
 sudo cp *-traffic /usr/local/bin
 
 This will allow you to run the mfw-traffic and ngfw-traffic commands to start the traffic generators.
+
+# To stop containers that are running daemonized
+
+docker-compose -f /path/to/repo/mfw.yml down
+
+docker-compose -f /path/to/repo/ngfw.yml down
