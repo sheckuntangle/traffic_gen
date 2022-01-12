@@ -6,6 +6,8 @@ services:
     entrypoint: bash -c '/entrypoint.sh'
     networks:
       ngfw_net:
+    volumes:
+      - ~/traffic_logging/:/logs/
 
 networks:
   # network for ngfw devices 192.168.2.0/24

@@ -6,6 +6,8 @@ services:
     entrypoint: bash -c '/entrypoint.sh'
     networks:
       mfw_net:
+    volumes:
+      - ~/traffic_logging/:/logs/
 
 networks:
   # network for mfw devices 192.168.1.0/24
