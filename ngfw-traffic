@@ -4,4 +4,4 @@
 read -p "How many client containers do you want to run? " clients
 
 # bring up container using ngfw.yml
-docker-compose -f ~/pytraffic/ngfw.yml up --scale ngfw_traffic=$clients -d
+docker-compose -f ~/traffic_gen/ngfw.yml up --scale ngfw_traffic=$clients -d
