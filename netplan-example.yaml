@@ -1,0 +1,27 @@
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    ens18:
+      dhcp4: true
+  version: 2
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    ens19:
+      dhcp4: true
+      # override to not create a default route for this interface
+      dhcp4-overrides:
+        use-routes: false
+      # optional flag so this interface is not required to get DHCP on boot
+      optional: true
+  version: 2
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    ens20:
+      # override to not create a default route for this interface
+      dhcp4-overrides:
+        use-routes: false
+      # optional flag so this interface is not required to get DHCP on boot
+      optional: true
+  version: 2
