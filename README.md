@@ -4,7 +4,9 @@ Dockerized Python Web Traffic Generator For Untangle NGFW and MFW products
 
 # Recommended Setup
 
-Recommend configuring with 3 NIC's, one for local network (ssh access), one to connect to NGFW, and one to connect to MFW
+Recommend configuring device with 3 NIC's, one for local network (ssh access), one to connect to NGFW, and one to connect to MFW
+
+NOTE: if using Ubuntu 20 you will have to edit /etc/netplan/ configuration, example config shown on netplan-example.yaml file
 
 # Pull Docker Image
 
