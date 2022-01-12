@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # ask how many clients
+
 read -p "How many client containers do you want to run? " clients
 
 # bring up container using ngfw.yml
+
 docker-compose -f ~/traffic_gen/mfw.yml up --scale mfw_traffic=$clients -d
