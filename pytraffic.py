@@ -27,7 +27,7 @@ while True:
         url = random.choice(open('url.txt').readlines())
 
         # open logfile
-        logfile = open("/logs/"+file_name".log", "a")
+        logfile = open("/logs/"+file_name+".log", "a")
 
         # log attempt
         logfile.write(str("Attempting to access " +str(url)))
