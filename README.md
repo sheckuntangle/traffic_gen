@@ -21,7 +21,7 @@ docker pull container-registry.untangle.com/traffic_gen:latest
 
 Edit the .env file in the repo to match the name of the interfaces on your device
 
-# Make logging script executable and copy to /usr/local/bin of host machine
+# Make trafficlogs executable and copy to /usr/local/bin of host machine
 
 This will allow you to run the trafficlogs command to aggregate log data and get stats from traffic. It will ask you to give a name for a folder to backup the current files in traffic_logging directory. After aggregating it moves all files into the backup directory that was created and makes a .summary file for the data report.
 
