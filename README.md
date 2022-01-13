@@ -42,11 +42,11 @@ sudo nano /usr/local/bin/mfw-traffic
 
 sudo nano /usr/local/bin/ngfw-traffic
 
-sudo nano /usr/local/bin/mfw-log
+sudo nano /usr/local/bin/mfw-logs
 
 sudo nano /usr/local/bin/mfw-log-backup
 
-sudo nano /usr/local/bin/ngfw-log
+sudo nano /usr/local/bin/ngfw-logs
 
 sudo nano /usr/local/bin/ngfw-log-backup
 
@@ -66,9 +66,9 @@ mfw-log-backup
 
 This command will aggregate the logs, show stats:
 
-ngfw-log
+ngfw-logs
 
-mfw-log
+mfw-logs
 
 # To run containers manually
 
