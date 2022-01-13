@@ -13,7 +13,10 @@ NOTE: if using Ubuntu 20 you will have to edit /etc/netplan/ configuration, exam
 On the host device, make a directory called traffic_logging, this will be used for the logs from the containers:
 
 ex:
-mkdir ~/traffic_logging
+
+mkdir -p ~/traffic_logging/ngfw
+
+mkdir -p ~/traffic_logging/mfw
 
 # Pull Docker Image
 
@@ -21,7 +24,7 @@ docker pull container-registry.untangle.com/traffic_gen:latest
 
 # Edit .env file
 
-Edit the .env file in the repo to match the name of the interfaces on your device. Also add the path to your logging directory.
+Edit the .env file in the repo to match the name of the interfaces on your device and the logging directories
 
 # Create trafficlogs, ngfw-traffic, and mfw-traffic commands
 
@@ -39,7 +42,9 @@ sudo nano /usr/local/bin/mfw-traffic
 
 sudo nano /usr/local/bin/ngfw-traffic
 
-sudo nano /usr/local/bin/trafficlogs
+sudo nano /usr/local/bin/logs-backup
+
+sudo nano /usr/local/bin/logs-no-save
 
 # Usage
 
@@ -51,7 +56,11 @@ mfw-traffic
 
 This command will ask for name to create a folder, aggregate the logs, show stats, create a summary, and backup the logs in that folder:
 
-trafficlogs
+logs-backup
+
+This command will aggregate the logs, show stats:
+
+logs-no-save
 
 # To run containers manually
 
