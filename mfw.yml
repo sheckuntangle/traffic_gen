@@ -7,7 +7,7 @@ services:
     networks:
       mfw_net:
     volumes:
-      - ~/traffic_logging/:/logs/
+      - ${LOG_DIR}:/logs/
 
 networks:
   # network for mfw devices 192.168.1.0/24

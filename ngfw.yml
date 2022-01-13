@@ -7,7 +7,7 @@ services:
     networks:
       ngfw_net:
     volumes:
-      - ~/traffic_logging/:/logs/
+      - ${LOG_DIR}:/logs/
 
 networks:
   # network for ngfw devices 192.168.2.0/24
