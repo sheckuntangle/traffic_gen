@@ -3,7 +3,7 @@ version: '2'
 services:
   mfw_traffic:
     image: container-registry.untangle.com/traffic_gen:latest
-    entrypoint: bash -c '/traffic_gen/entrypoint.sh'
+    entrypoint: bash -c '/entrypoint.sh'
     networks:
       mfw_net:
     volumes:
