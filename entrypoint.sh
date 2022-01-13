@@ -1,4 +1,5 @@
 #!/bin bash
 
-cd /traffic
+cd /traffic_gen
+git pull
 python pytraffic.py

@@ -3,7 +3,7 @@ version: '2'
 services:
   ngfw_traffic:
     image: container-registry.untangle.com/traffic_gen:latest
-    entrypoint: bash -c '/entrypoint.sh'
+    entrypoint: bash -c '/traffic_gen/entrypoint.sh'
     networks:
       ngfw_net:
     volumes:

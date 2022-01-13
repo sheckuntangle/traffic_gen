@@ -50,7 +50,7 @@ while True:
         logfile.close()
 
         # wait random time between 15-45 seconds before restarting loop
-        #sleep(randint(15,45))
+        sleep(randint(15,45))
 
         # quit driver
         driver.quit()
