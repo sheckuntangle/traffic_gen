@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # set variable for count of timeout exceptions
-timeoutexcept=$(grep Timeout ~/traffic_logging/*.log | wc -l)
+timeoutexcept=$(grep Timeout ~/traffic_logging/ngfw/*.log | wc -l)
 
 # set variable for count of web driver exceptions
-wdexcept=$(grep WebDriverException ~/traffic_logging/*.log | wc -l)
+wdexcept=$(grep WebDriverException ~/traffic_logging/ngfw/*.log | wc -l)
 
 # set variable for count of every attempted URL
-attempt=$(grep Attempting ~/traffic_logging/*.log | wc -l)
+attempt=$(grep Attempting ~/traffic_logging/ngfw/*.log | wc -l)
 
 # log TimeoutExceptions to summary
 echo "TimeoutExceptions: $timeoutexcept"

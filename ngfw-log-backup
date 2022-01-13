@@ -1,0 +1,36 @@
+#!/bin/bash
+
+read -p "Choose a name for log backup folder: "  folder
+
+# set variable for count of timeout exceptions
+timeoutexcept=$(grep Timeout ~/traffic_logging/ngfw/*.log | wc -l)
+
+# set variable for count of web driver exceptions
+wdexcept=$(grep WebDriverException ~/traffic_logging/ngfw/*.log | wc -l)
+
+# set variable for count of every attempted URL
+attempt=$(grep Attempting ~/traffic_logging/ngfw/*.log | wc -l)
+
+# log TimeoutExceptions to summary
+echo "TimeoutExceptions: $timeoutexcept" >> ~/traffic_logging/ngfw/$folder.summary
+
+# log WebDriverExceptions to summary
+echo "WebDriverExceptions: $wdexcept" >> ~/traffic_logging/ngfw/$folder.summary
+
+# log total attempts to summary
+echo "Total Attempts: $attempt" >> ~/traffic_logging/ngfw/$folder.summary
+
+# get percentage of TimeoutExceptions and log to summary
+echo "Timeout Percentage: $(echo "scale=4; $timeoutexcept/$attempt * 100" | bc | cut -d . -f 1)%%" >> ~/traffic_logging/ngfw/$folder.summary
+
+# get percentage of WebDriverExceptions and log to summary
+echo "WebDriverException Percentage: $(echo "scale=4; $wdexcept/$attempt * 100" | bc | cut -d . -f 1)%%" >> ~/traffic_logging/ngfw/$folder.summary
+
+# cat summary
+cat ~/traffic_logging/ngfw/$folder.summary
+
+# make backup folder directory
+mkdir ~/traffic_logging/ngfw/$folder
+
+# move all files into backup folder
+mv ~/traffic_logging/ngfw/*.log ~/traffic_logging/ngfw/$folder

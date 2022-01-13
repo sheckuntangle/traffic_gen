@@ -26,9 +26,9 @@ docker pull container-registry.untangle.com/traffic_gen:latest
 
 Edit the .env file in the repo to match the name of the interfaces on your device and the logging directories
 
-# Create trafficlogs, ngfw-traffic, and mfw-traffic commands
+# Create traffic logging, ngfw-traffic, and mfw-traffic commands
 
-This will create a copy for trafficlogs, ngfw-traffic, and mfw-traffic commands to /usr/local/bin and make them executable so they can run as commands on the host. These commands assume that your repo is in /home, i.e ~/traffic_gen and your logging is in ~/traffic_logging, if not you will need to edit these files and change the repo path and logging path in those commands.
+This will create a copy of the commands listed below to /usr/local/bin and make them executable so they can run as commands on the host. These commands assume that your repo is in /home, i.e ~/traffic_gen and your logging is in ~/traffic_logging, if not you will need to edit these files and change the repo path and logging path in those commands.
 
 The following commands need to be run from the repo directory:
 
@@ -42,9 +42,13 @@ sudo nano /usr/local/bin/mfw-traffic
 
 sudo nano /usr/local/bin/ngfw-traffic
 
-sudo nano /usr/local/bin/logs-backup
+sudo nano /usr/local/bin/mfw-log
 
-sudo nano /usr/local/bin/logs-no-save
+sudo nano /usr/local/bin/mfw-log-backup
+
+sudo nano /usr/local/bin/ngfw-log
+
+sudo nano /usr/local/bin/ngfw-log-backup
 
 # Usage
 
@@ -54,13 +58,17 @@ ngfw-traffic
 
 mfw-traffic
 
-This command will ask for name to create a folder, aggregate the logs, show stats, create a summary, and backup the logs in that folder:
+These command will ask for name to create a folder, aggregate the logs, show stats, create a summary, and backup the logs in that folder:
 
-logs-backup
+ngfw-log-backup
+
+mfw-log-backup
 
 This command will aggregate the logs, show stats:
 
-logs-no-save
+ngfw-log
+
+mfw-log
 
 # To run containers manually
 
