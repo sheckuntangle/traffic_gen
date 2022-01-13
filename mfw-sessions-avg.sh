@@ -40,5 +40,5 @@ echo "Average Session Count: $average_sessions" | tee -a /tmp/$folder.summary
 echo "CPU Load Average: $load_average" | tee -a /tmp/$folder.summary
 
 # reset session_count.log and sessions_count_dates.log
-echo >> /tmp/session_count.log
-echo >> /tmp/session_count_dates.log
+rm /tmp/session_count.log
+rm /tmp/session_count_dates.log

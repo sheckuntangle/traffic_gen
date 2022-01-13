@@ -52,11 +52,11 @@ sudo nano /usr/local/bin/ngfw-log-backup
 
 # Usage
 
-These command will ask how many clients and create the containers:
+These command require 3 parameters, number of clients, time (in minutes), and a name for the backup folder. ex:
 
-ngfw-traffic
+ngfw-traffic 10 30 test_folder
 
-mfw-traffic
+mfw-traffic 10 30 test_folder
 
 These command will ask for name to create a folder, aggregate the logs, show stats, create a summary, and backup the logs in that folder:
 
@@ -64,7 +64,7 @@ ngfw-log-backup
 
 mfw-log-backup
 
-This command will aggregate the logs, show stats:
+This command will aggregate the logs, show stats, but will not create summary or backups:
 
 ngfw-logs
 
