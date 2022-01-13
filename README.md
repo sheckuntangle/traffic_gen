@@ -29,7 +29,7 @@ This will create a symlink for trafficlogs, ngfw-traffic, and mfw-traffic comman
 The following commands need to be run from the repo directory:
 
 sudo chmod +x commands.sh
-./commands.sh
+sudo ./commands.sh
 
 If you need to edit:
 sudo nano /usr/local/bin/mfw-traffic
@@ -37,11 +37,12 @@ sudo nano /usr/local/bin/ngfw-traffic
 
 # Usage
 
-These command will ask how many clients and create the containers
+These command will ask how many clients and create the containers:
 ngfw-traffic
 mfw-traffic
 
-This command will ask for name to create a folder, aggregate the logs, show stats, create a summary, and backup the logs in that folder.
+This command will ask for name to create a folder, aggregate the logs, show stats, create a summary, and backup the logs in that folder:
+trafficlogs
 
 # To run containers manually
 
