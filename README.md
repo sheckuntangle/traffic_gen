@@ -52,19 +52,19 @@ sudo nano /usr/local/bin/ngfw-log-backup
 
 # Usage
 
-These command require 3 parameters, number of clients, time (in minutes), and a name for the backup folder. ex:
+These command require 3 parameters, number of clients, time (in minutes), and a name for the backup folder. These commands also run the *-log-backup command at the end:
 
 ngfw-traffic 10 30 test_folder
 
 mfw-traffic 10 30 test_folder
 
-These command will ask for name to create a folder, aggregate the logs, show stats, create a summary, and backup the logs in that folder:
+These command will ask for name to create a folder, aggregate the logs, show stats, create a summary, and backup the logs in that folder. If you cancelled your ngfw/mfw-traffic commands and need to aggregate your logs, use these commands:
 
 ngfw-log-backup
 
 mfw-log-backup
 
-This command will aggregate the logs, show stats, but will not create summary or backups:
+This command will aggregate the logs, show stats, but will not create summary or backups, for use while ngfw/mfw-traffic commands are running for real time updates:
 
 ngfw-logs
 
@@ -72,14 +72,14 @@ mfw-logs
 
 # To run containers manually
 
-replace the /path/to/repo with your repo location and X with amount of clients you want to run
+Replace X with number of clients you want to run. If needed change the directory to match your repo.
 
-docker-compose -f /path/to/repo/mfw.yml up --scale mfw-traffic=X
+docker-compose -f ~/traffic_gen/mfw.yml up --scale mfw-traffic=X
 
-docker-compose -f /path/to/repo/ngfw.yml up --scale ngfw-traffic=X
+docker-compose -f ~/traffic_gen/ngfw.yml up --scale ngfw-traffic=X
 
 # To stop containers that are running daemonized
 
-docker-compose -f /path/to/repo/mfw.yml down
+docker-compose -f ~/traffic_gen/mfw.yml down
 
-docker-compose -f /path/to/repo/ngfw.yml down
+docker-compose -f ~/traffic_gen/ngfw.yml down
