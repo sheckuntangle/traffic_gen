@@ -20,7 +20,7 @@ docker pull container-registry.untangle.com/traffic_gen:latest
 
 # Edit .env file
 
-Edit the .env file in the repo to match the name of the interfaces on your device.
+Edit the .env file in the repo to match the name of the interfaces on your device. Also add the path to your logging directory.
 
 # Create trafficlogs, ngfw-traffic, and mfw-traffic commands
 
