@@ -2,7 +2,7 @@
 
 # clients, time, and date variables
 clients=$1
-time=$2
+time="$2m"
 folder=$3
 
 # check for missing variables
