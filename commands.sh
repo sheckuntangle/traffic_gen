@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chmod +x *-traffic
-chmod +x trafficlogs
-ln -sf *-traffic /usr/local/bin
-ln -sf trafficlogs /usr/local/bin
+cp *-traffic /usr/local/bin
+cp trafficlogs /usr/local/bin
+chmod +x /usr/local/bin/*-traffic
+chmod +x /usr/local/bin/trafficlogs
