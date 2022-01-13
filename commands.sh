@@ -2,5 +2,5 @@
 
 chmod +x *-traffic
 chmod +x trafficlogs
-cp *-traffic /usr/local/bin
-cp trafficlogs /usr/local/bin
+ln -sf *-traffic /usr/local/bin
+ln -sf trafficlogs /usr/local/bin
