@@ -39,6 +39,8 @@ sudo nano /usr/local/bin/mfw-traffic
 
 sudo nano /usr/local/bin/ngfw-traffic
 
+sudo nano /usr/local/bin/trafficlogs
+
 # Usage
 
 These command will ask how many clients and create the containers:
