@@ -24,7 +24,7 @@ Edit the .env file in the repo to match the name of the interfaces on your devic
 
 # Create trafficlogs, ngfw-traffic, and mfw-traffic commands
 
-This will create a symlink for trafficlogs, ngfw-traffic, and mfw-traffic commands to /usr/local/bin and make them executable so they can run as commands on the host. ngfw-traffic and mfw-traffic commands assume that your repo is in /home, i.e ~/traffic_gen, if not you will need to edit these files and change the repo path in the docker-compose commaand.
+This will create a symlink for trafficlogs, ngfw-traffic, and mfw-traffic commands to /usr/local/bin and make them executable so they can run as commands on the host. These commands assume that your repo is in /home, i.e ~/traffic_gen and your logging is in ~/traffic_logging, if not you will need to edit these files and change the repo path in the docker-compose commaand.
 
 The following commands need to be run from the repo directory:
 
