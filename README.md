@@ -5,6 +5,7 @@ Dockerized Python Web Traffic Generator For Untangle NGFW and MFW products
 # Recommended Setup
 
 Recommend configuring device with 3 NIC's, one for local network (ssh access), one to connect to NGFW, and one to connect to MFW
+
 NOTE: if using Ubuntu 20 you will have to edit /etc/netplan/ configuration, example config shown on netplan-example.yaml file
 
 # Make directory for logs on host
@@ -29,19 +30,25 @@ This will create a copy for trafficlogs, ngfw-traffic, and mfw-traffic commands 
 The following commands need to be run from the repo directory:
 
 sudo chmod +x commands.sh
+
 sudo ./commands.sh
 
 If you need to edit:
+
 sudo nano /usr/local/bin/mfw-traffic
+
 sudo nano /usr/local/bin/ngfw-traffic
 
 # Usage
 
 These command will ask how many clients and create the containers:
+
 ngfw-traffic
+
 mfw-traffic
 
 This command will ask for name to create a folder, aggregate the logs, show stats, create a summary, and backup the logs in that folder:
+
 trafficlogs
 
 # To run containers manually
@@ -49,9 +56,11 @@ trafficlogs
 replace the /path/to/repo with your repo location and X with amount of clients you want to run
 
 docker-compose -f /path/to/repo/mfw.yml up --scale mfw-traffic=X
+
 docker-compose -f /path/to/repo/ngfw.yml up --scale ngfw-traffic=X
 
 # To stop containers that are running daemonized
 
 docker-compose -f /path/to/repo/mfw.yml down
+
 docker-compose -f /path/to/repo/ngfw.yml down
