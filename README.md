@@ -29,8 +29,7 @@ cd (repo dir)
 sudo chmod + x trafficlogs
 sudo cp trafficlogs /usr/local/bin
 
-# Copy ngfw-traffic and mfw-traffic to /usr/local/bin and make executable
-
+# Make ngfw-traffic and mfw-traffic executable and copy to /usr/local/bin oh host machine
 This will allow you to run the mfw-traffic and ngfw-traffic commands to start the traffic generators. These commands will ask how many clients you would like to run and then start the clients daemonized.
 
 cd (repo dir)
