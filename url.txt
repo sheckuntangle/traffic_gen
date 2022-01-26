@@ -2,7 +2,6 @@ http://www.youtube.com
 http://www.facebook.com
 http://www.baidu.com
 http://www.yahoo.com
-http://www.tianya.cn
 http://www.cnnic.cn
 http://www.yandex.ru
 http://www.rambler.ru
@@ -52,12 +51,10 @@ http://www.paypal.com
 http://www.blogspot.com
 http://www.imgur.com
 http://www.stackoverflow.com
-http://www.aliexpress.com
 http://www.naver.com
 http://www.ok.ru
 http://www.apple.com
 http://www.github.com
-http://www.chinadaily.com.cn
 http://www.imdb.com
 http://www.google.co.kr
 http://www.pornhub.com
@@ -69,7 +66,6 @@ http://www.google.ca
 http://www.whatsapp.com
 http://www.amazon.in
 http://www.office.com
-http://www.tianya.cn
 http://www.google.co.id
 http://www.youku.com
 http://www.rakuten.co.jp
@@ -87,7 +83,6 @@ http://www.alibaba.com
 http://www.alipay.com
 http://www.microsoft.com
 http://www.booking.com
-http://www.googleusercontent.com
 http://www.google.com.au
 http://www.popads.net
 http://www.cntv.cn
@@ -95,7 +90,6 @@ http://www.zhihu.com
 http://www.amazon.co.uk
 http://www.diply.com
 http://www.coccoc.com
-http://www.cnn.com
 http://www.bbc.co.uk
 http://www.twitch.tv
 http://www.wikia.com
@@ -105,7 +99,6 @@ http://www.google.com.ph
 http://www.doubleclick.net
 http://www.onet.pl
 http://www.googleadservices.com
-http://www.accuweather.com
 http://www.googleweblight.com
 http://www.answers.yahoo.com
 http://linkedin.com
@@ -150,12 +143,6 @@ http://hacks.oreilly.com/pub/h/302
 http://hacks.oreilly.com/pub/h/315
 http://heather.cs.ucdavis.edu/itaa.real.html
 http://hipotecas.basefinanciera.com/
-http://hippocampusmath.blogspot.com/
-http://httpd.apache.org/docs/2.2/mod/mod_proxy_balancer.html
-http://httpd.apache.org/docs/2.2/mod/mod_proxy.html#access
-http://httpd.apache.org/docs/mod/core.html
-http://httpd.apache.org/docs/sections.html
-http://httpd.apache.org/info/css-security/
 http://iks.es/camaras/san-agustin.php
 http://independentfilm.tripod.com/
 http://info.acm.org/crossroads/xrds1-1/tcpjmy.html
@@ -180,7 +167,4 @@ http://linas.org/linux/pm.html
 http://linux-sound.org/
 http://linuxppc.org/
 http://linuxtoday.com/news_story.php3?ltsn=2002-08-30-011-26-NW-LL-PB
-http://list-business.com/list-service-providers/
-http://lists.samba.org/archive/samba/2002-July/047902.html
-http://lists.shorewall.net/pipermail/shorewall-users/2002-December/004087.html
 http://livepage.apple.com/
