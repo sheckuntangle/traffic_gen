@@ -2,7 +2,6 @@ http://www.youtube.com
 http://www.facebook.com
 http://www.baidu.com
 http://www.yahoo.com
-http://www.cnnic.cn
 http://www.yandex.ru
 http://www.rambler.ru
 http://www.referat.ru
@@ -16,7 +15,6 @@ http://www.taobao.com
 http://www.bing.com
 http://www.instagram.com
 http://www.weibo.com
-http://www.sina.com.cn
 http://www.linkedin.com
 http://www.yahoo.co.jp
 http://www.msn.com
@@ -35,7 +33,6 @@ http://www.google.fr
 http://www.t.co
 http://www.tmall.com
 http://www.google.com.br
-http://www.360.cn
 http://www.amazon.co.jp
 http://www.pinterest.com
 http://www.netflix.com
