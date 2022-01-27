@@ -36,7 +36,6 @@ http://www.t.co
 http://www.tmall.com
 http://www.google.com.br
 http://www.360.cn
-http://www.sohu.com
 http://www.amazon.co.jp
 http://www.pinterest.com
 http://www.netflix.com
@@ -68,7 +67,6 @@ http://www.amazon.in
 http://www.office.com
 http://www.google.co.id
 http://www.youku.com
-http://www.rakuten.co.jp
 http://www.craigslist.org
 http://www.amazon.de
 http://www.nicovideo.jp
@@ -79,7 +77,6 @@ http://www.dropbox.com
 http://www.xinhuanet.com
 http://www.outbrain.com
 http://www.pixnet.net
-http://www.alibaba.com
 http://www.alipay.com
 http://www.microsoft.com
 http://www.booking.com
@@ -105,15 +102,12 @@ http://linkedin.com
 http://nytimes.com
 http://ask.com
 http://cnet.com
-http://nfl.com
-http://nba.com
 http://target.com
 http://12factor.net/
 http://adodb.sourceforge.net/
 http://afamilyinbaghdad.blogspot.com/
 http://app.etizer.org/
 http://babelfish.altavista.com/
-http://blekko.com/
 http://blog.guykawasaki.com/
 http://bombusbee.com/
 http://bricolage.cc/
@@ -165,6 +159,5 @@ http://lessonplans.btskinner.com/index.html
 http://library.stanford.edu/mac/
 http://linas.org/linux/pm.html
 http://linux-sound.org/
-http://linuxppc.org/
 http://linuxtoday.com/news_story.php3?ltsn=2002-08-30-011-26-NW-LL-PB
 http://livepage.apple.com/
