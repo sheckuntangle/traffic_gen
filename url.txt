@@ -99,14 +99,12 @@ http://www.googleadservices.com
 http://www.googleweblight.com
 http://www.answers.yahoo.com
 http://linkedin.com
-http://nytimes.com
 http://ask.com
 http://cnet.com
 http://target.com
 http://12factor.net/
 http://adodb.sourceforge.net/
 http://afamilyinbaghdad.blogspot.com/
-http://app.etizer.org/
 http://babelfish.altavista.com/
 http://blog.guykawasaki.com/
 http://bombusbee.com/
@@ -155,7 +153,6 @@ http://koikoikoi.com/wp-content/uploads/2012/07/effigy.gif
 http://lambda.nic.fi/~ktmatu/contype/
 http://learn.adafruit.com/
 http://learn.sparklelabs.com/
-http://lessonplans.btskinner.com/index.html
 http://library.stanford.edu/mac/
 http://linas.org/linux/pm.html
 http://linux-sound.org/
