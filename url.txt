@@ -125,7 +125,6 @@ http://es.news.yahoo.com/
 http://es.wikipedia.org/wiki/Netiquette
 http://estadao.com.br/
 http://ettercap.sourceforge.net/
-http://extensionroom.mozdev.org/
 http://flavio.tordini.org/arale
 http://gallery.menalto.com/index.php
 http://googleblog.blogspot.com/
